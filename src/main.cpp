@@ -13,7 +13,7 @@ const char* password = "Jacobo20035";
 
 // Configuración MQTT
 const char* mqtt_broker = "mqtt.daniela.freeddns.org";  // Broker MQTT con TLS
-const int mqtt_port = 8883;                                // Puerto para MQTT con TLS
+const int mqtt_port = 18083;  //8883                               // Puerto para MQTT con TLS
 const char* mqtt_topic = "dispositivo/device1/ota";
 const char* mqtt_client_id = "ESP32Client";
 const char* mqtt_username = "DaniMarin";  // Opcional: usuario MQTT
